@@ -7,9 +7,9 @@ const pool = require('./db')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 
-// app.get('/', (req, res) => {
-//     res.send('Hello!');
-// });
+app.get('/', (req, res) => {
+    res.send('Hello!');
+});
 
 app.use(cors())
 app.use(express.json())
